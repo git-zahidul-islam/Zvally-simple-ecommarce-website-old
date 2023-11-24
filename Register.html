@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zvally is a ecommerce website">
+    <!-- css link start here -->
+    <link rel="stylesheet" href="style.css">
+    <!-- css link end here -->
+    <!-- google font link start here -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- google font link end here -->
+    <!-- font awesome link start here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome link end here -->
+    <title>Zvally</title>
+</head>
+<body>
+
+<!-- navber starts here -->
+<i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper flex-space-around">
+            <li class="nav__list"><a href="index.html" class="nav__link">Home</a></li>
+            <li class="nav__list"><a href="Register.html" class="nav__link">Register</a></li>
+            <li class="nav__list"><a href="login.html" class="nav__link">Login</a></li>
+            <li class="nav__list"><a href="index.html" class="nav__link">Logout</a></li>
+            <li class="nav__list"><a href="contact.html" class="nav__link">Contact</a></li>
+            <li class="nav__list"><a href="profile.html" class="nav__link"> <img class="profile-icon" src="images/profile1.png" alt="profile image"> </a></li>
+        </ul>
+
+        <!-- <ul class="nav-lower flex-space-around">
+            <li class="nav__list list__none__overline"><a href="index.html" class="nav__brand nav__link"> <span class="z__extra">Z</span>vally</a></li>
+            <li class="nav__list"><a href="card.html" class="nav__link"> <span><i class="fa-solid fa-cart-arrow-down"></i></span> Cart 2 product 140.40$ </a></li>
+        </ul> -->
+
+    </nav>
+
+<!-- navber ends here -->
+
+<main>
+    <section class="register">
+        <h2 class="section-title text-center">User Registration</h2>
+        <div class="card">
+            <form action="" class="form">
+                <div class="form-control flex-center">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" required autocomplete="name">
+                </div>
+                <div class="form-control flex-center">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required autocomplete="email">
+                </div>
+                <div class="form-control flex-center">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required autocomplete="new-password"> 
+                </div>
+                <div class="form-control flex-center">
+                    <label for="About me">About Me</label>
+                    <textarea name="about me" id="about me" required>Write here</textarea>
+                </div>
+                <div class="form-control flex-center form-button-field">
+                    <button class="btn contact-btn" type="submit" value="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+
+<!-- footer starts here -->
+
+<footer class="footer flex-space-around">
+    <div class="flex-space-around">
+        <label for="subscribe">Subscribe to NewsLatter:&nbsp;</label>
+        <input type="email" name="subscribe" id="subscribe" class="footer__input" placeholder="Input Your Email">
+        <button class="btn btn__subscribe">Subscribe</button>
+    </div>
+    <div>
+        <p>&copy;Copyright 2023 <span style="color: red;">Z</span>vally, All Right Reserved</p>
+    </div>
+</footer>
+
+<!-- footer ends here -->
+
+<!-- script added start here -->
+<script src="Script/indes.js"></script>
+<!-- script added end here -->
+
+</body>
+</html>

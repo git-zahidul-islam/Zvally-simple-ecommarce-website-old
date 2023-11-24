@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zvally is a ecommerce website">
+    <!-- css link start here -->
+    <link rel="stylesheet" href="style.css">
+    <!-- css link end here -->
+    <!-- google font link start here -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- google font link end here -->
+    <!-- font awesome link start here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome link end here -->
+    <title>Zvally</title>
+</head>
+<body>
+
+<!-- navber starts here -->
+<i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper flex-space-around">
+            <li class="nav__list"><a href="index.html" class="nav__link">Home</a></li>
+            <li class="nav__list"><a href="Register.html" class="nav__link">Register</a></li>
+            <li class="nav__list"><a href="login.html" class="nav__link">Login</a></li>
+            <li class="nav__list"><a href="index.html" class="nav__link">Logout</a></li>
+            <li class="nav__list"><a href="contact.html" class="nav__link">Contact</a></li>
+            <li class="nav__list"><a href="profile.html" class="nav__link"> <img class="profile-icon" src="images/profile1.png" alt="profile image"> </a></li>
+        </ul>
+
+        <!-- <ul class="nav-lower flex-space-around">
+            <li class="nav__list list__none__overline"><a href="index.html" class="nav__brand nav__link"> <span class="z__extra">Z</span>vally</a></li>
+            <li class="nav__list"><a href="cart.html" class="nav__link"> <span><i class="fa-solid fa-cart-arrow-down"></i></span> Cart 2 product 140.40$ </a></li>
+        </ul> -->
+
+    </nav>
+
+<!-- navber ends here -->
+
+<main>
+    <section class="contact-section">
+        <h2 class="contact-heading flex-center">Contact US</h2>
+        <div class="contact-container flex-center">
+            <form action="" class="form card">
+                <div class="form-control flex-center">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" required autocomplete="name">
+                </div>
+                <div class="form-control flex-center">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required autocomplete="email">
+                </div>
+                <div class="form-control flex-center">
+                    <label for="About me">Massage</label>
+                    <textarea name="massage" id="massage" required>Write here</textarea>
+                </div>
+            </form>
+            <div class="contact-address flex-space-around">
+                <address>
+                    <h4>Address</h4>
+                    <p>Biddyanandakati</p>
+                    <p>keshabur, jashore</p>
+                    <br>
+                    <span>Call Me:</span>
+                    <a href="tel:+01999999999">0199999999</a>
+                </address>
+                <iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235274.70040383874!2d89.07002540177935!3d22.87028136647716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff6e17b1383995%3A0x6006eb96976eab9d!2sKeshabpur%20Upazila!5e0!3m2!1sen!2sbd!4v1699770088391!5m2!1sen!2sbd"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+    </section>
+</main>
+
+<!-- footer starts here -->
+
+<footer class="footer flex-space-around">
+    <div class="flex-space-around">
+        <label for="subscribe">Subscribe to NewsLatter:&nbsp;</label>
+        <input type="email" name="subscribe" id="subscribe" class="footer__input" placeholder="Input Your Email">
+        <button class="btn btn__subscribe">Subscribe</button>
+    </div>
+    <div>
+        <p>&copy;Copyright 2023 <span style="color: red;">Z</span>vally, All Right Reserved</p>
+    </div>
+</footer>
+
+<!-- footer ends here -->
+
+<!-- script added start here -->
+<script src="Script/indes.js"></script>
+<!-- script added end here -->
+
+</body>
+</html>
